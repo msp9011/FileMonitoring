@@ -8,5 +8,5 @@ To monitor changes in file/files of a directory/directories
 `find /ftp/FileMonitor/LOG/ -name *.*.log`
 
 
-# To check List of files changes today
-`Today=`date "+%d-%m-%y"` && find /ftp/FileMonitor/BackUp/ -name *.php-"$Today"_*`
+# To check List of php files changes today
+`Today=$(date "+%d-%m-%y") && find /ftp/FileMonitor/BackUp/ -name *.php-"$Today"_*`
